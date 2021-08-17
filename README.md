@@ -2,7 +2,7 @@
 description: >-
   ※ 本サイトは Nimbus チームによる "The Nimbus Beacon Chain Book"
   の内容を、Status日本コミュニティが日本語化したものです。オフィシャル版はこちらを参照ください。
-  https://status-im.github.io/nimbus-eth2/
+  https://nimbus.guide
 ---
 
 # 1. Nimbus Book について
