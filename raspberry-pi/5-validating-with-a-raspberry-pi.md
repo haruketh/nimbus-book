@@ -60,7 +60,7 @@ Raspberry Pi Imager を開き、**CHOOSE OS** をクリックします。
 
 ステップ2でダウンロードしたOSを指定します。
 
-![](../.gitbook/assets/5-4-3.png)
+![](../.gitbook/assets/5-4b-2%20%282%29.png)
 
 ### 4b. SDカードに書き込む
 
@@ -70,7 +70,7 @@ Raspberry Pi Imager を開き、**CHOOSE OS** をクリックします。
 
 **WRITE** をクリックします。
 
-![](../.gitbook/assets/5-4b-2.png)
+![](../.gitbook/assets/5-4b-2%20%281%29.png)
 
 **YES** をクリックします。
 
