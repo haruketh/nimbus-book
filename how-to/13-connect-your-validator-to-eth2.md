@@ -20,5 +20,3 @@ INF 2020-11-18 11:20:00.181+01:00 Launching beacon node
 NOT 2020-11-18 11:20:02.091+01:00 Local validator attached
 ```
 
-
-

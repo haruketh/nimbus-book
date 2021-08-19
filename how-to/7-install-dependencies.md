@@ -2,7 +2,7 @@
 
 Nimbusのビーコンチェーンは、Linux、macOS、Windows、Androidで動作します。現時点では、Nimbusはソースからビルドしなければならないため、いくつかの依存関係をインストールする必要があります。
 
-### 時刻同期
+## 時刻同期
 
 ビーコンチェーンは、お使いのコンピュータが正しい時刻（プラスマイナス0.5秒）を設定しているかどうかに依存しています。
 
@@ -20,13 +20,13 @@ Nimbusのビーコンチェーンは、Linux、macOS、Windows、Androidで動�
 
 上記の内容がラテン語のように聞こえる場合は、心配しないでください。コンピューターの日付と時刻の設定をいじっていなければ大丈夫です（自動的に設定されているはずです）。
 
-### 外部依存性
+## 外部依存性
 
 * 開発ツール（Cコンパイラ、Make、Bash、Git）
 
 Nimbus はNimの独自のローカルコピーをビルドするため、Nim は外部依存はありません。
 
-#### Linux
+### Linux
 
 一般的な Linux ディストリビューションでは、依存関係をインストールするには、
 
@@ -41,7 +41,7 @@ dnf install @development-tools
 yourAURmanager -S base-devel
 ```
 
-#### macOS
+### macOS
 
 [Homebrew](https://brew.sh/) を使用してパッケージを管理することを前提とします。
 
@@ -49,7 +49,7 @@ yourAURmanager -S base-devel
 brew install cmake
 ```
 
-#### Windows
+### Windows
 
 Windows上でNimbusをビルドするには、Mingw-w64のビルド環境を推奨します。
 
@@ -62,7 +62,7 @@ Windows上でNimbusをビルドするには、Mingw-w64のビルド環境を推�
 
 [Git for Windows](https://gitforwindows.org/) をインストールし、「Git Bash」シェルを使ってnimbus-eth2をクローンしてビルドします。
 
-#### Android
+### Android
 
 * FDroidまたはGoogle Playストアから[Termux](https://termux.com/)アプリをインストールします。
 * お好みのディストリビューションの指示に従って、お好みの[PRoot](https://wiki.termux.com/wiki/PRoot)をインストールします。注意：UbuntuのPRootは、Arm64アーキテクチャ（Androidデバイスのための最も一般的なアーキテクチャ）でコンパイルされたすべてのNimbusの前提条件を含むことが知られています。
@@ -72,6 +72,4 @@ Windows上でNimbusをビルドするには、Mingw-w64のビルド環境を推�
 ```text
 apt install build-essential git
 ```
-
-
 

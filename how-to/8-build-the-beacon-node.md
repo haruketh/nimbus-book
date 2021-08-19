@@ -6,24 +6,22 @@
 
 _Todo: ビーコンノードとバリデータクライアントの関係を説明する_
 
-### 前提条件
+## 前提条件
 
 アプリケーションをビルドして実行する前に、[必要な依存関係がインストールされている](https://haruki.gitbook.io/nimbus-book-ja/how-to/7-install-dependencies)ことを確認してください_。_
 
-### ノードの構築
+## ノードの構築
 
-#### 1. nimビーコンチェーンのリポジトリをクローンする
+### 1. nimビーコンチェーンのリポジトリをクローンする
 
 ```text
 git clone https://github.com/status-im/nimbus-eth2
 cd nimbus-eth2
 ```
 
-#### 2. ビーコンノードのビルドプロセスを実行する
+### 2. ビーコンノードのビルドプロセスを実行する
 
 ```text
 make nimbus_beacon_node
 ```
-
-
 

@@ -4,11 +4,11 @@
 
 バリデータをアタッチせずにビーコンノードを実行することで、ネットワーク全体の匿名性を向上させることができます。
 
-### 1. 依存関係のインストール
+## 1. 依存関係のインストール
 
 Nimbusを正しく動作させるためには、いくつかのパッケージをインストールする必要があります。
 
-#### Linux
+### Linux
 
 一般的な Linux ディストリビューションでは、以下の依存関係をインストールします。
 
@@ -23,7 +23,7 @@ dnf install @development-tools
 yourAURmanager -S base-devel
 ```
 
-#### macOS
+### macOS
 
 パッケージの管理に [Homebrew](https://brew.sh/) を使うことを想定しています。
 
@@ -31,7 +31,7 @@ yourAURmanager -S base-devel
 brew install cmake
 ```
 
-### 2. Nimbus リポジトリをクローンする
+## 2. Nimbus リポジトリをクローンする
 
 以下のコマンドを実行して、[nimbus-eth2](https://github.com/status-im/nimbus-eth2) リポジトリをクローンします。
 
@@ -39,7 +39,7 @@ brew install cmake
 git clone https://github.com/status-im/nimbus-eth2
 ```
 
-### 3. ビーコンノードをビルドする
+## 3. ビーコンノードをビルドする
 
 上記のディレクトリに移動して、ビーコンノードをビルドします。
 
@@ -50,7 +50,7 @@ make nimbus_beacon_node
 
 _この処理には数分かかる場合があります。処理が終わるまで待ちます。_
 
-### 4. メインネットに接続する
+## 4. メインネットに接続する
 
 下記を実行してメインネットに接続します。
 

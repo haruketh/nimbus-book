@@ -4,7 +4,7 @@
 
 一番良いのは、PiをPyrmontで実行するように設定することです。**Pyrmont上での同期やアテストに問題がなければ、あなたの設定はメインネットでも十分に使えるはずです**（メインネットの方がリソースの使用量は少ないと予想されます）。
 
-{% embed url="https://twitter.com/EthereumOnARM/status/1332772217420177408" %}
+{% embed url="https://twitter.com/EthereumOnARM/status/1332772217420177408" caption="" %}
 
 最新のPiが故障することは想定していませんが、万が一故障した場合に備えて、予備のPiとエンタープライズグレードのSSDを購入することをお勧めします。
 

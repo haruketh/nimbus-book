@@ -6,15 +6,15 @@ description: >-
 
 # 5. Raspberry Piのバリデート：ガイド
 
-{% embed url="https://twitter.com/drakefjustin/status/1143091047058366465" %}
+{% embed url="https://twitter.com/drakefjustin/status/1143091047058366465" caption="" %}
 
-### イントロダクション
+## イントロダクション
 
 このページでは、ラップトップを使って Raspberry Pi をプログラミングし、Nimbus を動作させ、Pyrmont testnet に接続する方法を紹介します。
 
 Raspberry Pi を体験する上で最も重要なことの一つは、できるだけ簡単に始められるようにすることです。そのため、第一原理から説明することに最善を尽くしています。
 
-### 前提条件
+## 前提条件
 
 * Raspberry Pi 4 \(4GB RAMオプション\)
 * 64GBのmicroSDカード
@@ -34,21 +34,21 @@ Nimbusを実行するにはSSDが必要です（SSDドライブがないとEther
 どちらの場合も、低品質のSSDディスクは避けてください（SSDはノードの重要なコンポーネントであり、パフォーマンスと同期時間の両方に大 きく影響します）。ディスクをUSB 3.0ポート（青色のポート）に接続する必要があることを覚えておいてください。
 {% endhint %}
 
-### 1. Raspberry Pi Imagerをダウンロード
+## 1. Raspberry Pi Imagerをダウンロード
 
 [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) は、Raspbian \(DebianベースのフリーのPiオペレーティングシステム\) を使って microSDカードを簡単に管理できるようにする新しい画像処理ユーティリティです。
 
 お使いのオペレーティングシステムの[ダウンロード](https://www.learnenough.com/command-line-tutorial/basics)リンクはこちらです：[Windows](https://downloads.raspberrypi.org/imager/imager_1.4.exe)、[macOS](https://downloads.raspberrypi.org/imager/imager_1.4.dmg)、[Ubuntu](https://downloads.raspberrypi.org/imager/imager_1.4_amd64.deb)
 
-### 2. Raspian 64-bit OS \(Beta\) のダウンロード
+## 2. Raspian 64-bit OS \(Beta\) のダウンロード
 
 最新バージョンは[こちら](https://downloads.raspberrypi.org/raspios_arm64/images/)からどうぞ。
 
-### 3. SDカードを接続する
+## 3. SDカードを接続する
 
 microSD USBアダプタを使用して、SDカードをコンピュータに接続します。
 
-### 4. Raspberry Pi OS をダウンロードする
+## 4. Raspberry Pi OS をダウンロードする
 
 Raspberry Pi Imager を開き、**CHOOSE OS** をクリックします。
 
@@ -62,7 +62,7 @@ Raspberry Pi Imager を開き、**CHOOSE OS** をクリックします。
 
 ![](../.gitbook/assets/5-4b-2%20%282%29.png)
 
-### 4b. SDカードに書き込む
+## 4b. SDカードに書き込む
 
 **CHOOSE SD CARD** をクリックしてください。SDカードの一覧のポップアップメニューが表示されます。選択します。
 
@@ -76,11 +76,7 @@ Raspberry Pi Imager を開き、**CHOOSE OS** をクリックします。
 
 ![](../.gitbook/assets/5-4b-3.png)
 
-コーヒーを淹れましょう :\)　（※しばらく時間がかかるという意味です）
+コーヒーを淹れましょう :\) （※しばらく時間がかかるという意味です）
 
-### 5. 無線LANの設定
-
-
-
-
+## 5. 無線LANの設定
 

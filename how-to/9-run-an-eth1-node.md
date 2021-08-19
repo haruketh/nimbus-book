@@ -14,11 +14,11 @@ Raspberry Pi のようなリソース制限のあるデバイスで実行して�
 ただし、500GB以上のSSDをお持ちで、ハードウェアがそれを処理できる場合は、独自のeth1クライアントを実行することを強くお勧めします。これにより、ネットワークが可能な限り分散された状態を維持することができます。
 {% endhint %}
 
-### 1. Gethをインストールする
+## 1. Gethをインストールする
 
 MacOS をお使いの場合は、[ここに記載されている手順](https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac)に従って geth をインストールしてください。それ以外の場合は[こちら](https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac)を参照してください。
 
-### 2. Gethを起動する
+## 2. Gethを起動する
 
 gethをインストールしたら、以下のコマンドでeth1ノードを起動します。
 
@@ -38,7 +38,7 @@ geth --ws
 --ws フラグは、websocket RPC APIを有効にするために必要です。これにより、NimbusはWeb3 API呼び出しを使用してeth1チェーンを照会することができます。
 {% endhint %}
 
-### 3. Gethをそのまま放置する
+## 3. Gethをそのまま放置する
 
 しばらく同期させておきます。Gethはデフォルトで高速同期モードを使用しています。数時間から数日かかる場合があります。
 
@@ -59,6 +59,4 @@ INFO [05-29|01:16:10] Imported new chain segment               blocks=1 txs=0   
 INFO [05-29|01:16:10] Imported new chain segment               blocks=1 txs=1   mgas=0.021  elapsed=7.382ms   mgasps=2.845   number=3785447 hash=39986c…dd2a01
 INFO [05-29|01:16:14] Imported new chain segment               blocks=1 txs=11  mgas=1.135  elapsed=22.281ms  mgasps=50.943  number=3785444 hash=277bb9…623d8c
 ```
-
-
 
